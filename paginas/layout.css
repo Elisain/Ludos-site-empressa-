@@ -1,0 +1,117 @@
+li{
+    display: inline;;
+    padding: 5px;
+    background-color:#6bb2e2;
+}
+.container{
+   background-color:#1A6566;
+   box-shadow:10px 10px black ;
+   margin: 20px;
+   border-radius: 10px;
+    }
+
+    .item{
+    display: inline-block;
+   background-color: rgb(2, 1, 46);
+    padding: 10px;
+    margin: 10px;
+    width: 14%;
+    border-radius: 10px;
+    }
+
+#menu{
+   
+    background-color:#1A6566;
+    box-shadow: 10px 10px black;
+    width: 95%;
+    padding: 20px;
+    margin:10;
+}
+img{
+    border-radius: 10px;
+}
+.galeria{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 100%;
+    margin: 0 auto;
+}
+div.gallery{
+    margin: 5px;
+    border: 3px solid #ccc;;
+    border-radius: 10px;
+    width:auto;   
+    padding: 0px;
+}
+div.gallery:hover {
+    border: 3px solid #777;
+    border-radius: 10px;
+}
+
+
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color:#5D8A66;
+    color: rgb(0, 0, 0);
+    margin: 10px;
+    padding: 0;
+}
+.informação
+{
+    display:flex;
+    flex-direction:row;
+    flex-wrap:wrap;
+    background-color: #1A6566;
+    border-radius: 10px;
+    box-shadow: 10px 10px black;
+    width: 90%;
+    padding: 20px;
+    margin: 20px;
+}
+#sobre{
+    background-color: rgb(214, 112, 43);
+    box-shadow: 10px 10px black;
+    width: 30%;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px
+}
+
+ div{
+    flex-direction:row;
+    flex-wrap:wrap-reverse;
+    justify-content:stretch;
+    align-items: center;
+ }
+ 
+
+#jogos{
+    background-color: #323050;
+    box-shadow: 10px 10px black;
+    padding: 20px;
+    margin: 20px;
+}
+#acessórios{
+   background-color: #323050;
+   box-shadow: 10px 10px black;
+   padding: 20px;
+   margin: 20px;
+}
+#Noticias{
+    flex-direction:row-reverse;
+    flex-wrap:wrap;
+    background-color:#323050;
+    box-shadow: 10px 10px black;
+    width: 50%;
+    padding: 20px;
+    margin: 25px;
+}
+footer{
+    border-radius: 10px;
+    background-color: #45214A;
+    color: white;
+    padding: 20px;
+    text-align:justify;
+}

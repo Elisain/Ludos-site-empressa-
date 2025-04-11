@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="PT=br">
+<head>
+    <title>Formulário de Serviço</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="layout.css" rel="stylesheet" type="text/css" media="all">
+</head>
+<body>
+    <h1>Formulário de Serviço</h1>
+    <ul id="menu">
+        <li><a href="estrutura.html">Início</a></li>
+        <li><a href="jogos.html" target="_blank">Jogos</a></li>
+        <li><a href="Acessórios.html" target="_blank">Acessórios</a></li>
+        <li><a href="Noticias.html" target="_blank">Notícias</a></li>
+        <li><a href="Serviços.html" target="_blank">Serviços</a></li>
+        <li><a href="Formulario_serviço.html" target="_blank">Suporte Técnico</a></li>
+    </ul>
+
+    <form action="processar_formulario.php" method="post">
+        <label for="nome">Nome:</label><br>
+        <input type="text" id="nome" name="nome"><br><br>
+
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email"><br><br>
+
+        <label for="mensagem">Mensagem:</label><br>
+        <textarea id="mensagem" name="mensagem"></textarea><br><br>
+
+        <input type="submit" value="Enviar">
+    </form>
+</body>
