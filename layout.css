@@ -1,7 +1,8 @@
 li{
-    display: inline;;
-    padding: 5px;
-    background-color:#6bb2e2;
+    display: inline-block;
+    margin: 5px 10px;
+    padding: 4px;
+    
 }
 .container{
    background-color:#1A6566;
@@ -18,18 +19,50 @@ li{
     width: 14%;
     border-radius: 10px;
     }
-
+    .item:hover{
+        background-color: #008cff;
+       
+    }
+#pesquisar{
+  width: 50%;
+  float:left;
+  padding: 3px;
+  border: none;
+  margin-top: 8px;
+  margin-right: 16px;
+  font-size: 20px;
+}
 #menu{
-   
+    overflow: hidden;
     background-color:#1A6566;
     box-shadow: 10px 10px black;
     width: 95%;
     padding: 20px;
     margin:10;
+    text-decoration: none;
 }
-img{
+#menu a:hover{
+    background-color: #283f69;
+    color: white;
     border-radius: 10px;
 }
+#menu a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    padding: 10px;
+    display: block;
+    border-radius: 10px;
+    background-color:rgb(214, 112, 43);
+  
+   
+}
+
+
+img{
+    border-radius: 10px;    
+}
+
 .galeria{
     display: flex;
     flex-direction: row;
@@ -44,9 +77,10 @@ div.gallery{
     border-radius: 10px;
     width:auto;   
     padding: 0px;
+    
 }
 div.gallery:hover {
-    border: 3px solid #777;
+    border: 3px solid  #008cff;;
     border-radius: 10px;
 }
 
@@ -108,3 +142,19 @@ footer{
     padding: 20px;
     text-align:justify;
 }
+
+    
+
+#forms{
+    color: #031111;
+    text-align: center;
+    background-color: #6e6b91;
+    box-shadow: 10px 10px black;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+}	
+
+    
+
+

@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="PT=br">
 <head>
+    <link rel="shortcut icon" type="imagem/x-icon" href="https://file.garden/Z_qT_GOCUBt3xGXM/morango.png">
     <title>Formulário de Serviço</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -13,20 +14,53 @@
         <li><a href="jogos.html" target="_blank">Jogos</a></li>
         <li><a href="Acessórios.html" target="_blank">Acessórios</a></li>
         <li><a href="Noticias.html" target="_blank">Notícias</a></li>
-        <li><a href="Serviços.html" target="_blank">Serviços</a></li>
         <li><a href="Formulario_serviço.html" target="_blank">Suporte Técnico</a></li>
     </ul>
 
-    <form action="processar_formulario.php" method="post">
-        <label for="nome">Nome:</label><br>
-        <input type="text" id="nome" name="nome"><br><br>
+    <form action="processar_formulario.php" method="post" id="forms">
+                <label for="nome">Nome:</label><br>
+                <input type="text" id="nome" name="nome"><br><br>
 
-        <label for="email">Email:</label><br>
-        <input type="email" id="email" name="email"><br><br>
+                <label for="email">Email:</label><br>
+                <input type="email" id="email" name="email"><br><br>
 
-        <label for="mensagem">Mensagem:</label><br>
-        <textarea id="mensagem" name="mensagem"></textarea><br><br>
+                <label for="serviço">Selecione o serviço desejado:</label><br>
+                <select name="serviço" id="serviço">
+                <option value="suporte">Suporte Técnico</option>
+                <option value="Consultoria">Consultoria em Jogos</option>
+                <option value="Desenvolvimento">Desenvolvimento de jogos</option>
+                <option value="outro">Outros</option> 
+                </select><br><br>
 
-        <input type="submit" value="Enviar">
-    </form>
+                
+                <label for="comentário">Comentário:</label><br>
+                <textarea id="Comentário" name="Comentário" rows="4" cols="50"></textarea><br><br>
+    
+                <input type="submit" value="Enviar">
+
+            </form>
+
+                <footer id="Ludos">
+                    <h3>Ludos</h3>
+                    <p>Fundanda em 1990, como a proprietaria, Lusia da conceição de 1999,a Ludos publica jogos para pc-sendo a maior editora do Brasil neste segmento-jogos,jogos 
+                      e mais jogos.</p>
+                    <p>Copyright & copy; 2023 Ludos Games Brasil. Todos os direitos para Elisa Sescon.</p> 
+                    <p>R.Rua aleatoria, 111 - Casa / São pedro da aldeia - Rj, CEP 00001-00</p>
+                    <p>Telefone: (22) 99999-9999</p>
+                    <a>elisasesconink@gmail.com</a>
+                    <p>Essa pagina foi criada para fins educacionais e não representa uma empresa real.</p>
+                
+                      <h3>Redes sociais</h3>
+                      <p><a href="https://www.facebook.com/ludosgamesbrasil">Facebook</a></p>
+                      <p><a href="https://twitter.com/ludosgamesbrasil">Twitter</a></p>
+                      <p><a href="https://www.instagram.com/ludosgamesbrasil">Instagram</a></p>
+                      <p><a href="https://www.linkedin.com/company/ludosgamesbrasil">LinkedIn</a></p>
+                  
+                   </footer>
+            
+
+
+
+        
+    
 </body>
