@@ -1,5 +1,6 @@
 
-<?php 
+<!--
+?php 
 
 
 require 'product.php';
@@ -105,5 +106,5 @@ public function getTotal()
  
 ?>
 
-
+ -->
 

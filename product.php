@@ -1,4 +1,5 @@
-<?php 
+<!--
+?php 
 
 
 class Product{
@@ -42,4 +43,5 @@ public function getquantity()
     return $this -> quantity;   
 }
 }
-?>
+?
+-->

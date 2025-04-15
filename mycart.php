@@ -1,4 +1,5 @@
-<?php
+<!--
+?php
 
 require 'product.php';
 require 'cart.php';
@@ -38,25 +39,26 @@ if (isset($_GET['update'])) {
 <body>
 
   <ul>
-    <?php if (count($productsInCart) <= 0) : ?>
+    ?php if (count($productsInCart) <= 0) : ?>
       Nenhum produto no carrinho
-    <?php endif; ?>
+    ?php endif; ?>
 
-    <?php foreach ($productsInCart as $product) : ?>
+    ?php foreach ($productsInCart as $product) : ?>
       <li>
-        <?php echo $product->getName(); ?>
+        ?php echo $product->getName(); ?>
         <form action="">
-          <input type="hidden" name="update" value="<?php echo $product->getId(); ?>">
-          <input type="text" name="qty" value="<?php echo $product->getQuantity() ?>">
+          <input type="hidden" name="update" value="?php echo $product->getId(); ?>">
+          <input type="text" name="qty" value="?php echo $product->getQuantity() ?>">
         </form>
-        Price: R$ <?php echo number_format($product->getPrice(), 2, ',', '.') ?>
-        Subtotal: R$ <?php echo number_format($product->getPrice() * $product->getQuantity(), 2, ',', '.') ?>
-        <a href="?remove=<?php echo $product->getId(); ?>">remove</a>
+        Price: R$ ?php echo number_format($product->getPrice(), 2, ',', '.') ?>
+        Subtotal: R$ ?php echo number_format($product->getPrice() * $product->getQuantity(), 2, ',', '.') ?>
+        <a href="?remove=?php echo $product->getId(); ?>">remove</a>
       </li>
-    <?php endforeach; ?>
-    <li>Total: R$ <?php echo number_format($cart->getTotal(), 2, ',', '.'); ?></li>
+    ?php endforeach; ?>
+    <li>Total: R$ ?php echo number_format($cart->getTotal(), 2, ',', '.'); ?></li>
   </ul>
 
 </body>
 
 </html>
+-->
