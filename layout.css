@@ -10,7 +10,17 @@ li{
    margin: 20px;
    border-radius: 10px;
     }
+ 
 
+  
+   main{
+    background-color: #283f69;
+    box-shadow: 10px 10px black;
+    padding: 8px;
+    margin: 20px;
+    border-radius: 10px;
+    
+    }
     .item{
     display: inline-block;
    background-color: rgb(2, 1, 46);
@@ -105,7 +115,7 @@ body{
     padding: 20px;
     margin: 20px;
 }
-#sobre{
+.sobre{
     background-color: rgb(214, 112, 43);
     box-shadow: 10px 10px black;
     width: 30%;
@@ -113,6 +123,7 @@ body{
     margin: 20px;
     border-radius: 10px
 }
+
 
  div{
     flex-direction:row;
@@ -154,6 +165,14 @@ footer{
     margin: 20px;
     border-radius: 10px;
 }	
+
+iframe{
+ 
+    border-radius: 10px;
+    box-shadow: 10px 10px black;
+   
+}
+  
 
     
 

@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="PT=br">
+<html lang="PT-BR">
 <head>
     <link rel="shortcut icon" type="imagem/x-icon" href="https://file.garden/Z_qT_GOCUBt3xGXM/morango.png">
     <title>Formulário de Serviço</title>
@@ -19,26 +19,27 @@
 
     <form action="processar_formulario.php" method="post" id="forms">
                 <label for="nome">Nome:</label><br>
-                <input type="text" id="nome" name="nome"><br><br>
+                <input type="text" id="idnome" name="nome"><br><br>
 
                 <label for="email">Email:</label><br>
-                <input type="email" id="email" name="email"><br><br>
+                <input type="email" id="idemail" name="email"><br><br>
 
                 <label for="serviço">Selecione o serviço desejado:</label><br>
-                <select name="serviço" id="serviço">
-                <option value="suporte">Suporte Técnico</option>
-                <option value="Consultoria">Consultoria em Jogos</option>
-                <option value="Desenvolvimento">Desenvolvimento de jogos</option>
-                <option value="outro">Outros</option> 
+                <select name="serviço" id="idserviço">
+                <option value="suporte" name="serviço">Suporte Técnico</option>
+                <option value="Consultoria"name="serviço">Consultoria em Jogos</option>
+                <option value="Desenvolvimento"name="serviço">Desenvolvimento de jogos</option>
+                <option value="outro"name="serviço">Outros</option> 
                 </select><br><br>
 
                 
                 <label for="comentário">Comentário:</label><br>
-                <textarea id="Comentário" name="Comentário" rows="4" cols="50"></textarea><br><br>
+                <textarea id="idcomentario" name="Comentário" rows="4" cols="50"></textarea><br><br>
     
                 <input type="submit" value="Enviar">
 
             </form>
+                   
 
                 <footer id="Ludos">
                     <h3>Ludos</h3>
